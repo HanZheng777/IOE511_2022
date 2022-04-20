@@ -1,9 +1,6 @@
-% IOE 511/MATH 562, University of Michigan
-% Code written by: Han Zheng
+
 
 function f = compute_f_LR(data, label, w)
-
-% computes the loss value for logistic regression loss
 
 data_size = size(data);
 f = 0;
